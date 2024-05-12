@@ -1,0 +1,499 @@
+.main-skills-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: fit-content;
+  position: absolute;
+  margin: 100px 0 0 0;
+  gap: 150px;
+  /* border: 2px solid red; */
+}
+
+.tech-skills h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.tech-skills h2 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.tech-skills svg {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.html-icon {
+  color: #d3391e;
+}
+
+.css-icon {
+  color: #2e62d1;
+}
+
+.js-icon {
+  color: #c9ab04;
+}
+
+.react-icon {
+  color: #00afaf;
+}
+
+.tech-skills .progress-bar {
+  background-color: #959595;
+  width: 500px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.tech-skills .progress-bar div {
+  height: 10px;
+  border-radius: 5px;
+  width: 0%;
+}
+
+.tech-skills .progress-bar div span {
+  height: 18px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #1b1515;
+  float: right;
+  margin-top: -15px;
+  margin-right: -20px;
+  padding: 10px;
+  color: #000000;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.progress-bar .html {
+  background-color: #d3391e;
+  animation: html 1s linear forwards;
+}
+
+.progress-bar .css {
+  background-color: #2e62d1;
+  animation: css 1s linear forwards;
+}
+.progress-bar .javascript {
+  background-color: #c9ab04;
+  animation: javascript 1s linear forwards;
+}
+.progress-bar .react {
+  background-color: #00afaf;
+  animation: react 1s linear forwards;
+}
+
+.tech-skills .progress-bar .html span {
+  background-color: #d3391e;
+}
+
+.tech-skills .progress-bar .css span {
+  background-color: #2e62d1;
+}
+
+.tech-skills .progress-bar .javascript span {
+  background-color: #c9ab04;
+}
+
+.tech-skills .progress-bar .react span {
+  background-color: #00afaf;
+}
+
+@keyframes html {
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes css {
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes javascript {
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes react {
+  100% {
+    width: 75%;
+  }
+}
+
+/* Professional Skills Section */
+
+.other-skills h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.other-skills h2 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.other-skills svg {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.other-skills .dedication-icon {
+  color: #753ff3;
+}
+
+.other-skills .team-icon {
+  color: #62ec90;
+}
+
+.other-skills .speak-icon {
+  color: #f0e08a;
+}
+
+.other-skills .creative-icon {
+  color: #f14a60;
+}
+
+.other-skills .progress-bar {
+  background-color: #959595;
+  width: 500px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.other-skills .progress-bar div {
+  height: 10px;
+  border-radius: 5px;
+/* border: 2px solid red; */
+  width: 0%;
+}
+
+.other-skills .progress-bar div span {
+  height: 18px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #1b1515;
+  float: right;
+  margin-top: -15px;
+  margin-right: -20px;
+  padding: 10px;
+  color: #000000;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.progress-bar .dedication {
+  background-color: #753ff3;
+  animation: dedication 1s linear forwards;
+}
+
+.progress-bar .teamwork {
+  background-color: #62ec90;
+  animation: teamwork 1s linear forwards;
+}
+.progress-bar .communication {
+  background-color: #f0e08a;
+  animation: communication 1s linear forwards;
+}
+.progress-bar .creativity {
+  background-color: #f14a60;
+  animation: creativity 1s linear forwards;
+}
+
+.other-skills .progress-bar .dedication span {
+  background-color: #753ff3;
+}
+
+.other-skills .progress-bar .teamwork span {
+  background-color: #62ec90;
+}
+
+.other-skills .progress-bar .communication span {
+  background-color: #f0e08a;
+}
+
+.other-skills .progress-bar .creativity span {
+  background-color: #f14a60;
+}
+
+@keyframes dedication {
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes teamwork {
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes communication {
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes creativity {
+  100% {
+    width: 85%;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-skills-container {
+    display: block;
+    justify-content: center;
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    margin: 100px 0 0 0;
+  }
+
+  .tech-skills {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .tech-skills h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .tech-skills h2 {
+    font-size: 14px;
+  }
+
+  .tech-skills .progress-bar {
+    background-color: #959595;
+    width: 80vw;
+    height: 10px;
+    border-radius: 5px;
+  }
+
+  .tech-skills .progress-bar div span {
+    font-size: 14px;
+    padding: 9px;
+  }
+
+  @keyframes html {
+    100% {
+      width: 92%;
+    }
+  }
+
+  @keyframes css {
+    100% {
+      width: 88%;
+    }
+  }
+
+  /* Pro Skills Section */
+  .other-skills {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .other-skills h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .other-skills h2 {
+    font-size: 14px;
+  }
+
+  .other-skills .progress-bar {
+    background-color: #959595;
+    width: 80vw;
+    height: 10px;
+    border-radius: 5px;
+  }
+
+  .other-skills .progress-bar div span {
+    font-size: 14px;
+    padding: 9px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .main-skills-container {
+    display: block;
+    justify-content: center;
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    margin: 100px 0 0 0;
+  }
+
+  .tech-skills {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .tech-skills h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .tech-skills h2 {
+    font-size: 18px;
+  }
+
+  .tech-skills .progress-bar {
+    background-color: #959595;
+    width: 80vw;
+    height: 10px;
+    border-radius: 5px;
+  }
+
+  .tech-skills .progress-bar div span {
+    font-size: 14px;
+    padding: 9px;
+  }
+
+  @keyframes html {
+    100% {
+      width: 92%;
+    }
+  }
+
+  @keyframes css {
+    100% {
+      width: 88%;
+    }
+  }
+
+  /* Pro Skills Section */
+  .other-skills {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .other-skills h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .other-skills h2 {
+    font-size: 18px;
+  }
+
+  .other-skills .progress-bar {
+    background-color: #959595;
+    width: 80vw;
+    height: 10px;
+    border-radius: 5px;
+  }
+
+  .other-skills .progress-bar div span {
+    font-size: 14px;
+    padding: 9px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+  .main-skills-container {
+    display: block;
+    justify-content: center;
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    margin: 100px 0 0 0;
+  }
+
+  .tech-skills {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .tech-skills h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .tech-skills h2 {
+    font-size: 18px;
+  }
+
+  .tech-skills .progress-bar {
+    background-color: #959595;
+    width: 80vw;
+    height: 10px;
+    border-radius: 5px;
+  }
+
+  .tech-skills .progress-bar div span {
+    font-size: 14px;
+    padding: 9px;
+  }
+
+  @keyframes html {
+    100% {
+      width: 92%;
+    }
+  }
+
+  @keyframes css {
+    100% {
+      width: 88%;
+    }
+  }
+
+  /* Pro Skills Section */
+  .other-skills {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .other-skills h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .other-skills h2 {
+    font-size: 18px;
+  }
+
+  .other-skills .progress-bar {
+    background-color: #959595;
+    width: 80vw;
+    height: 10px;
+    border-radius: 5px;
+  }
+
+  .other-skills .progress-bar div span {
+    font-size: 14px;
+    padding: 9px;
+  }
+}

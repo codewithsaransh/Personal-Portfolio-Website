@@ -1,0 +1,170 @@
+.main-edu-box {
+  width: 100vw;
+  height: fit-content;
+  position: absolute;
+  margin: 100px 0 0 0;
+  color: aliceblue;
+  /* border: 2px solid red; */
+  font-family: sans-serif;
+}
+
+.edu-heading {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-bottom: 10px;
+}
+
+.headings {
+  color: rgb(247, 211, 94);
+}
+
+.main-edu-box section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.div-box {
+  width: 25vw;
+  height: 25vh;
+  padding: 40px;
+  background-color: #241e1e;
+  margin: 20px 20px 20px 20px;
+  /* padding: 20px 0; */
+}
+
+.discription {
+  margin-top: 15px;
+}
+
+.board-name {
+  /* border: 2px solid red; */
+  /* padding: ; */
+  font-size: 18px;
+  color: rgb(214, 198, 216);
+}
+
+.div-box:hover {
+  background-color: #363131;
+}
+
+@media (max-width: 600px) {
+  .main-edu-box {
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    margin: 80px 0 0 0;
+    color: aliceblue;
+  }
+
+  .edu-heading {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 10px;
+  }
+
+  .main-edu-box section {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .div-box {
+    width: 65vw;
+    height: fit-content;
+    padding: 20px;
+    background-color: #241e1e;
+    margin: 20px 20px 20px 20px;
+  }
+
+  .discription {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+
+  .board-name {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .main-edu-box {
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    margin: 100px 0 0 0;
+    color: white;
+  }
+
+  .edu-heading {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 10px;
+  }
+
+  .main-edu-box section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .div-box {
+    width: 35vw;
+    height: 35vh;
+    padding: 30px;
+    background-color: #241e1e;
+    margin: 20px 20px 20px 20px;
+  }
+
+  .discription {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .board-name {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+  .main-edu-box {
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    margin: 100px 0 0 0;
+    color: white;
+  }
+
+  .edu-heading {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 10px;
+  }
+
+  .main-edu-box section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .div-box {
+    width: 35vw;
+    height: 35vh;
+    padding: 30px;
+    background-color: #241e1e;
+    margin: 20px 20px 20px 20px;
+  }
+
+  .discription {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .board-name {
+    font-size: 18px;
+  }
+}

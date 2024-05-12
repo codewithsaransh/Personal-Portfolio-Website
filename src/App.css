@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1b1515;
+  background: linear-gradient(to right, #000000f8, #ffffff0e);
+  background: linear-gradient(to bottom right, #0f4c75, #3282b8);
+  background: linear-gradient(to bottom right, #6a3093, #a044ff);
+  background: linear-gradient(to bottom right, #43cea2, #185a9d);
+  background: linear-gradient(to bottom right, #192a56, #000000);
+ 
+
+}
